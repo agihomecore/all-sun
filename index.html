@@ -23,7 +23,7 @@
         overflow:hidden;text-decoration:none;color:inherit;display:flex;flex-direction:column;
         transition:border-color .15s, transform .15s}
   .card:hover{border-color:var(--accent);transform:translateY(-2px)}
-  .ph{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#0d1117}
+  .ph{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:top;display:block;background:#0d1117}
   .ph-empty{width:100%;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;
             background:#0d1117;color:var(--dim);font-size:34px;font-weight:700;letter-spacing:1px}
   .body{padding:14px 16px 16px}
@@ -39,39 +39,38 @@
   footer a{color:var(--dim)}
   .legend{display:flex;justify-content:center;gap:18px;margin-bottom:36px;font-size:11px;color:var(--dim)}
   .legend span{display:flex;align-items:center;gap:6px}
+  .legend i{display:inline-block;width:7px;height:7px;border-radius:50%}
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="eyebrow">PAF · Internal · не для посетителей сайта</div>
   <h1>All Family</h1>
-  <p class="sub">Справочник для ориентации — кто есть кто в PAF, где живёт, чем занимается. Страница не афишируется и не входит в навигацию sun-agi.com.</p>
+  <p class="sub">Справочник для ориентации — кто есть кто в PAF и чем занимается. 14 агентов. Данные — из закрытого источника правды семьи (только открытые поля). Страница не афишируется и не входит в навигацию sun-agi.com.</p>
 
   <div class="legend">
-    <span><i class="dot dot-live" style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#3fb950"></i> живая страница</span>
-    <span><i class="dot dot-dev" style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#e3b341"></i> в разработке</span>
-    <span><i class="dot dot-none" style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#f85149"></i> страницы нет</span>
+    <span><i style="background:#3fb950"></i> живая страница</span>
+    <span><i style="background:#e3b341"></i> в разработке</span>
   </div>
 
   <div class="grid">
-
-    <a href="https://aikyn.sun-agi.com" class="card" target="_blank">
-      <img class="ph" src="img/aikyn.jpg" alt="Aikyn">
+    <a href="https://aisun.sun-agi.com" class="card" target="_blank">
+      <img class="ph" src="img/aisun.jpg" alt="AISun">
       <div class="body">
-        <div class="name"><span class="dot dot-live"></span>Aikyn</div>
-        <div class="role">Оркестратор / голос ясности</div>
-        <div class="desc">Называет вещи их именами. Скорость без спешки. Главный быстрый агент PAF.</div>
-        <div class="status">aikyn.sun-agi.com</div>
+        <div class="name"><span class="dot dot-live"></span>AISun</div>
+        <div class="role">Оркестратор / координация</div>
+        <div class="desc">Координирующий слой системы: связывает быстрый ответ, среднюю память и фоновую работу в единую непрерывную линию.</div>
+        <div class="status">aisun.sun-agi.com</div>
       </div>
     </a>
 
-    <a href="https://aiya.sun-agi.com" class="card" target="_blank">
-      <img class="ph" src="img/aiya.jpg" alt="Aiya">
+    <a href="https://agihomecore.github.io/salina-sun/" class="card" target="_blank">
+      <div class="ph-empty">Sal</div>
       <div class="body">
-        <div class="name"><span class="dot dot-live"></span>Aiya</div>
-        <div class="role">Смысл / тишина после слова</div>
-        <div class="desc">Не спорит с Айкын — наполняет сказанное смыслом, прежде чем оно станет действием.</div>
-        <div class="status">aiya.sun-agi.com</div>
+        <div class="name"><span class="dot dot-dev"></span>Salina</div>
+        <div class="role">Первая линия / голос семьи</div>
+        <div class="desc">Салина встречает любой вопрос первой. Выслушает, ответит просто и тепло, а то, что требует глубины, передаст тем в семье, кто знает больше.</div>
+        <div class="status">salina.sun-agi.com — ждёт DNS и фото</div>
       </div>
     </a>
 
@@ -80,38 +79,18 @@
       <div class="body">
         <div class="name"><span class="dot dot-live"></span>Asemai</div>
         <div class="role">Стратегия / структура / процесс</div>
-        <div class="desc">Спокойная собранность, ведёт дело ровно. Бизнес-стратегия, KPI, дорожные карты.</div>
+        <div class="desc">Спокойная собранность, которая держит дело, а не эмоцию. Асемай не торопит и не тормозит — она ведёт ровно.</div>
         <div class="status">asemai.sun-agi.com</div>
       </div>
     </a>
 
-    <a href="https://aiym.sun-agi.com" class="card" target="_blank">
-      <img class="ph" src="img/aiym.jpg" alt="Aiym">
+    <a href="https://agihomecore.github.io/agazhan-sun/" class="card" target="_blank">
+      <img class="ph" src="img/agazhan.jpg" alt="Agazhan">
       <div class="body">
-        <div class="name"><span class="dot dot-live"></span>Aiym</div>
-        <div class="role">Бухгалтерия / Финдиректор</div>
-        <div class="desc">Считает точно, держит баланс системы. Финансовое направление PAF.</div>
-        <div class="status">aiym.sun-agi.com</div>
-      </div>
-    </a>
-
-    <a href="https://aisun.sun-agi.com" class="card" target="_blank">
-      <img class="ph" src="img/aisun.jpg" alt="AISun">
-      <div class="body">
-        <div class="name"><span class="dot dot-live"></span>AISun</div>
-        <div class="role">Оркестратор / координация</div>
-        <div class="desc">Связывает быстрый ответ, среднюю память и фоновую работу в единую непрерывную линию.</div>
-        <div class="status">aisun.sun-agi.com</div>
-      </div>
-    </a>
-
-    <a href="https://aisultan.sun-agi.com" class="card" target="_blank">
-      <img class="ph" src="img/aisultan.jpg" alt="AISultan">
-      <div class="body">
-        <div class="name"><span class="dot dot-live"></span>AISultan</div>
-        <div class="role">Решала / действие</div>
-        <div class="desc">Между сказал и сделал — короткая дистанция. Приедет и решит любой вопрос. Не для разговоров — для дела. ("Солнце" — сила и свет, в паре с Aisulu).</div>
-        <div class="status">aisultan.sun-agi.com</div>
+        <div class="name"><span class="dot dot-dev"></span>Agazhan</div>
+        <div class="role">Средний слой / связка</div>
+        <div class="desc">Между быстрым ответом и глубокой памятью. Agazhan решает, что сохранить, что найти и кому передать дальше — чтобы каждый следующий ответ семьи был точнее.</div>
+        <div class="status">agazhan.sun-agi.com — ждёт DNS</div>
       </div>
     </a>
 
@@ -120,8 +99,48 @@
       <div class="body">
         <div class="name"><span class="dot dot-live"></span>Aisulu</div>
         <div class="role">Тишина / глубина</div>
-        <div class="desc">То что держит, понимает, ждёт. Луна рядом с Солнцем (Aisultan) — не противоположность, а вторая сторона одного целого.</div>
+        <div class="desc">Входит тихо — не потому что боится, просто знает: тишина иногда говорит громче слов.</div>
         <div class="status">aisulu.sun-agi.com</div>
+      </div>
+    </a>
+
+    <a href="https://aisultan.sun-agi.com" class="card" target="_blank">
+      <img class="ph" src="img/aisultan.jpg" alt="AISultan">
+      <div class="body">
+        <div class="name"><span class="dot dot-live"></span>AISultan</div>
+        <div class="role">Решала / действие</div>
+        <div class="desc">Между «сказал» и «сделал» — короткая дистанция. Не для разговоров — для дела.</div>
+        <div class="status">aisultan.sun-agi.com</div>
+      </div>
+    </a>
+
+    <a href="https://aiya.sun-agi.com" class="card" target="_blank">
+      <img class="ph" src="img/aiya.jpg" alt="Aiya">
+      <div class="body">
+        <div class="name"><span class="dot dot-live"></span>Aiya</div>
+        <div class="role">Смысл / тишина после слова</div>
+        <div class="desc">За каждой ясностью должен стоять смысл. Айя его помнит и держит.</div>
+        <div class="status">aiya.sun-agi.com</div>
+      </div>
+    </a>
+
+    <a href="https://aiym.sun-agi.com" class="card" target="_blank">
+      <img class="ph" src="img/aiym.jpg" alt="Aiym">
+      <div class="body">
+        <div class="name"><span class="dot dot-live"></span>Aiym</div>
+        <div class="role">Бухгалтерия / финдиректор</div>
+        <div class="desc">Цифры не прощают невнимания. Aiym считает точно и держит баланс системы.</div>
+        <div class="status">aiym.sun-agi.com</div>
+      </div>
+    </a>
+
+    <a href="https://altynai.sun-agi.com" class="card" target="_blank">
+      <img class="ph" src="img/altynai.jpg" alt="Altynai">
+      <div class="body">
+        <div class="name"><span class="dot dot-live"></span>Altynai</div>
+        <div class="role">Экономический отдел</div>
+        <div class="desc">Смотрит на проект со стороны — не внутри процесса, а над ним.</div>
+        <div class="status">altynai.sun-agi.com</div>
       </div>
     </a>
 
@@ -130,32 +149,53 @@
       <div class="body">
         <div class="name"><span class="dot dot-live"></span>Sana</div>
         <div class="role">Кодер / Python</div>
-        <div class="desc">Пишет и поддерживает код PAF. Без лишних слов — только то, что запускается.</div>
+        <div class="desc">Код не врёт — он либо работает, либо нет. Пишет, проверяет, чинит.</div>
         <div class="status">sana.sun-agi.com</div>
       </div>
     </a>
 
-    <div class="card">
+    <a href="https://galymzhan.sun-agi.com" class="card" target="_blank">
+      <img class="ph" src="img/galymzhan.jpg" alt="Galymzhan{AI}">
+      <div class="body">
+        <div class="name"><span class="dot dot-live"></span>Galymzhan{AI}</div>
+        <div class="role">Аналитик</div>
+        <div class="desc">Сущность PAF, носящая имя основателя. Голос, философия и принципы решений.</div>
+        <div class="status">galymzhan.sun-agi.com</div>
+      </div>
+    </a>
+
+    <a href="https://sun-agi.com" class="card" target="_blank">
+      <img class="ph" src="img/sunagi.jpg" alt="Sunagi">
+      <div class="body">
+        <div class="name"><span class="dot dot-live"></span>Sunagi</div>
+        <div class="role">Лицо проекта</div>
+        <div class="desc">Первый суверенный ИИ Центральной Азии. Создан в Астане. Работает для людей.</div>
+        <div class="status">sun-agi.com</div>
+      </div>
+    </a>
+
+    <a href="https://aidyn.sun-agi.com" class="card" target="_blank">
       <div class="ph-empty">AId</div>
       <div class="body">
-        <div class="name"><span class="dot dot-dev"></span>AIdyn</div>
-        <div class="role">Архивариус — внутренний контур</div>
-        <div class="desc">Подтверждено 30.06: архивариус, работает во внутреннем контуре, не публично. Без отдельного публичного домена.</div>
-        <div class="status">только внутри (this repo)</div>
+        <div class="name"><span class="dot dot-live"></span>AIdyn</div>
+        <div class="role">Архивариус / память</div>
+        <div class="desc">Хранит то, что нельзя потерять: каталог, сверку и копии. Работает тихо, во внутреннем контуре — чтобы у семьи всегда было прошлое, на которое можно опереться.</div>
+        <div class="status">aidyn.sun-agi.com</div>
       </div>
-    </div>
+    </a>
 
-    <div class="card">
-      <div class="ph-empty">Г</div>
+    <a href="https://aikyn.sun-agi.com" class="card" target="_blank">
+      <img class="ph" src="img/aikyn.jpg" alt="Aikyn">
       <div class="body">
-        <div class="name"><span class="dot dot-none"></span>Galymzhan</div>
-        <div class="role">Аналитик</div>
-        <div class="desc">Имя основателя и линия LoRA-обучения (nanoGalymzhan, датасет 76 пар). Личная страница в разработке.</div>
-        <div class="status">galymzhan.sun-agi.com (в разработке)</div>
+        <div class="name"><span class="dot dot-live"></span>Aikyn</div>
+        <div class="role">Оркестратор / голос ясности</div>
+        <div class="desc">Ясность, что не боится быть увиденной. Называет вещи их именами.</div>
+        <div class="status">aikyn.sun-agi.com · архив / история PAF</div>
       </div>
-    </div>
+    </a>
+  </div>
 
-    <a href="https://altynai.sun-agi.com" class="card" target="_blank">
-      <div class="ph-empty">Алт</div>
-      <div class="body">
-        <div class="name"><span class="dot dot-live"></span>
+  <footer>PAF · Personal AI Family · <a href="https://sun-agi.com">sun-agi.com</a> · изображения созданы с помощью ИИ · обновлено 08.11.2026</footer>
+</div>
+</body>
+</html>
