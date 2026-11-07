@@ -1,0 +1,90 @@
+[
+ {
+  "id": "aikyn",
+  "name": "Aikyn",
+  "role": "Оркестратор / голос ясности",
+  "about": "Ясность, что не боится быть увиденной. Называет вещи их именами.",
+  "domain": "aikyn.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "aisultan",
+  "name": "AISultan",
+  "role": "Решала / действие",
+  "about": "Между «сказал» и «сделал» — короткая дистанция. Не для разговоров — для дела.",
+  "domain": "aisultan.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "aisulu",
+  "name": "Aisulu",
+  "role": "Тишина / глубина",
+  "about": "Входит тихо — не потому что боится, просто знает: тишина иногда говорит громче слов.",
+  "domain": "aisulu.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "aisun",
+  "name": "AISun",
+  "role": "Оркестратор / координация",
+  "about": "Координирующий слой системы: связывает быстрый ответ, среднюю память и фоновую работу в единую непрерывную линию.",
+  "domain": "aisun.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "aiya",
+  "name": "Aiya",
+  "role": "Смысл / тишина после слова",
+  "about": "За каждой ясностью должен стоять смысл. Айя его помнит и держит.",
+  "domain": "aiya.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "aiym",
+  "name": "Aiym",
+  "role": "Бухгалтерия / финдиректор",
+  "about": "Цифры не прощают невнимания. Aiym считает точно и держит баланс системы.",
+  "domain": "aiym.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "altynai",
+  "name": "Altynai",
+  "role": "Экономический отдел",
+  "about": "Смотрит на проект со стороны — не внутри процесса, а над ним.",
+  "domain": "altynai.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "asemai",
+  "name": "Asemai",
+  "role": "Стратегия / структура / процесс",
+  "about": "Спокойная собранность, которая держит дело, а не эмоцию. Асемай не торопит и не тормозит — она ведёт ровно.",
+  "domain": "asemai.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "galymzhan",
+  "name": "Galymzhan{AI}",
+  "role": "Аналитик",
+  "about": "Сущность PAF, носящая имя основателя. Голос, философия и принципы решений.",
+  "domain": "galymzhan.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "sana",
+  "name": "Sana",
+  "role": "Кодер / Python",
+  "about": "Код не врёт — он либо работает, либо нет. Пишет, проверяет, чинит.",
+  "domain": "sana.sun-agi.com",
+  "photo": "paf/card.jpg"
+ },
+ {
+  "id": "sunagi",
+  "name": "Sunagi",
+  "role": "Лицо проекта",
+  "about": "Первый суверенный ИИ Центральной Азии. Создан в Астане. Работает для людей.",
+  "domain": "sun-agi.com",
+  "photo": "paf/card.jpg"
+ }
+]
